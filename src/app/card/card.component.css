@@ -1,0 +1,44 @@
+@import '../../styles.css';
+
+.card-layout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    background-color: #27333f;
+    color: white;
+    margin-top: 50px;
+    border: 2px solid #b0caf063;
+    height: 70vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    gap: 10px; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.card-body{
+    margin: 5px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.button-small {
+    margin-top: auto;
+    align-self: center; 
+}
+
+.card-title{
+    color: #8c98a3;
+    font-size: 1.75rem;;
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+.card-text{
+    margin: 25px 0px;
+    color: white;
+    font-size: 1rem;
+    line-height: 1.75rem;
+}
