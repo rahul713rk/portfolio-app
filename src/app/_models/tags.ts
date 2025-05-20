@@ -8,6 +8,7 @@ export class Tag {
     static readonly CSS3 = new Tag('CSS3', '#192129');
     static readonly BOOTSTRAP = new Tag('Bootstrap', '#192129');
     static readonly VUEJS = new Tag('Vue.JS', '#192129');
+    static readonly SVELTE = new Tag('Svelte', '#192129');
 
     // Java Ecosystem
     static readonly JAVA = new Tag('Java', '#5a7581');
@@ -66,6 +67,8 @@ export class Tag {
     static readonly ENSEMBLE_LEARNING = new Tag('Ensemble Learning', '#2f6a77');
     static readonly NLP = new Tag('Natural Language Processing', '#2f6a77');
     static readonly CV = new Tag('Computer Vision', '#2f6a77');
+    static readonly ONNX = new Tag('Onnx', '#2f6a77');
+
 
 
 

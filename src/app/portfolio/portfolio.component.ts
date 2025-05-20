@@ -75,6 +75,37 @@ export class PortfolioComponent {
       tags: [Tag.ANGULAR, Tag.TYPESCRIPT, Tag.HTML5, Tag.CSS3, Tag.BOOTSTRAP],
       pictures: ["../../assets/portfolio-01.png", "../../assets/portfolio-02.png", "../../assets/portfolio-03.png", "../../assets/portfolio-04.png", "../../assets/portfolio-05.png"]
     },
+    {
+      id:7,
+      name: 'Pothole Segmentation App',
+      summary: "A web-based application that uses a pre-trained YOLOv8n-seg model (converted to ONNX) for real-time pothole detection and segmentation on road images, featuring a sleek, interactive frontend built with Svelte.",
+      description: "This project addresses road maintenance challenges by automatically detecting and segmenting potholes in uploaded images using state-of-the-art deep learning techniques. The backend leverages FastAPI with ONNX Runtime to serve a highly optimized YOLOv8n-seg model for real-time inference. The frontend, built using Svelte, provides a seamless user experience with image upload, preview, and segmented output visualization. The app is deployed with Vercel for the frontend and Render for backend services, ensuring smooth and scalable access.",
+      projectLink: "https://github.com/rahul713rk/pothole-segmentation-app",
+      LiveLink: "https://pothole-segmentation-app.vercel.app/",
+      tags : [Tag.PYTHON , Tag.TENSORFLOW ,Tag.FASTAPI , Tag.SVELTE , Tag.CV , Tag.ONNX , Tag.YOLO],
+      pictures : ['../../assets/pothole-seg1.png' , '../../assets/pothole-seg2.png']
+    },
+
+    {
+      id:8,
+      name: 'Video Downloader',
+      summary: "A desktop GUI application built with PySide6 that provides a user-friendly interface for yt-dlp, enabling easy video and playlist downloads from YouTube and other platforms with rich format, audio, subtitle, and post-processing options.",
+      description:"This project wraps the powerful yt-dlp command-line tool into a clean, intuitive desktop application using PySide6 (Qt for Python). It supports flexible URL input, format selection (video, audio, or custom), high-quality audio downloads with VBR control, format remuxing, subtitle embedding, chapter management, and SponsorBlock integration for skipping unwanted segments. Packaged as a .deb installer with Nuitka for Debian/Ubuntu systems, it includes all Python dependencies, requiring only ffmpeg on the system. The app offers live download progress, speed, ETA, and customizable output directories within a sleek Fusion-themed GUI to simplify video downloading workflows.",
+      projectLink : 'https://github.com/rahul713rk/Video-Downloader',
+      LiveLink : '',
+      tags : [Tag.PYTHON , Tag.PYSIDE , Tag.NUITKA , Tag.LINUX],
+      pictures : ['../../assets/Video_downloader-01.png' , '../../assets/Video_downloader-02.png']
+    },
+    // {
+    //   id:9,
+    //   name: '',
+    //   summary:'',
+    //   description:'',
+    //   projectLink : '',
+    //   LiveLink : '',
+    //   tags : [],
+    //   pictures : ['']
+    // }
 
   ]
 
